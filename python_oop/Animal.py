@@ -26,10 +26,15 @@ class Animal:
     def shout(self):
         print(f"毛发颜色为{self.color}的{self.name}，叫起来了")
 
-    # 吃（私有方法）
+    # 吃
     def eat(self):
         print(f"毛发颜色为{self.color}的{self.name}，吃起来了")
 
-    # 休息
+    # 休息（私有方法）
     def __rest(self):
         pass
+
+
+if __name__ == '__main__':
+    animal = Animal("white", 3, "公")
+    animal.shout()

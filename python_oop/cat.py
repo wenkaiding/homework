@@ -1,8 +1,8 @@
 # coding:utf-8
 __author__ = 'dingwenkai'
 
-from homework.Animal import Animal
-from homework.log_decorator import log_decorator
+from python_oop.Animal import Animal
+from python_oop.log_decorator import log_decorator
 
 
 class Cat(Animal):
